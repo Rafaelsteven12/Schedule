@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: lightgray; /* Custom background color */
+    color: #333; /* Custom text color */
+}
+img{
+
+	width: 200px;
+	height: 150px;
+}
+table{
+	margin: auto;
+    width: 85%;
+    border-spacing: 3px;
+    border: 2px solid black;
+}
+.TIME{
+	width: 10%;
+}
+th{
+	border: 1px solid black;
+	width: 15%;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+td{
+	display: table-cell;
+    vertical-align: inherit;
+    border:1px solid black;
+}
+
+
+.ITEP205{
+	background-color: skyblue;
+	color: blue;
+}
+
+.ITEP207{
+	background-color: lightgreen;
+	color: green;
+}
+
+.ITEP206{
+	background-color: lightpink;
+	color: red;
+}
+
+.ITEP204{
+	background-color: slategray;
+	color: darkslategray;
+}
+
+.ITEL203{
+	background-color: palevioletred;
+	color: darkviolet;
+}
+
+.GEC108{
+	background-color: orchid;
+	color: darkorchid;
+}
+
+.PE4{
+	background-color: khaki;
+	color: darkkhaki;
+}
+
+@media print {
+  body {
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif; /* Use Times New Roman for print */
+  }
+
+  a{
+  	color: black;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table{
+    border: 1px solid #ccc;
+    background-color: white; /* White background for table cells */
+  }
+  th{
+  	color: black;
+  }
+  .ITEP205{
+	
+	color: black;
+}
+
+.ITEP207{
+	color: black;
+}
+
+.ITEP206{
+	color: black;
+}
+
+.ITEP204{
+	color: black;
+}
+
+.ITEL203{
+	color: black;
+}
+
+.GEC108{
+	color: black;
+}
+
+.PE4{
+	color: black;
+}
+}
